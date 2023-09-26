@@ -36,25 +36,30 @@
   ],
   "anchors": [
     {
-      "name": "Landing Page",
-      "icon": "book-open-cover",
+      "name": "Website",
+      "icon": "house",
       "url": "https://budgiter.com/"
     },
     {
       "name": "Web App",
-      "icon": "slack",
+      "icon": "window",
       "url": "https://app.budgiter.com/"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://blog.budgiter.com/"
+    },
+    {
+      "name": "Support",
+      "icon": "book",
+      "url": "https://support.budgiter.com/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["your-first-budget", "your-personal-budget", "published-budgets"]
+      "pages": ["welcome", "your-first-budget", "your-personal-budget", "published-budgets"]
     },
     {
       "group": "Essentials",
@@ -68,12 +73,12 @@
       ]
     },
     {
-      "group": "Authentication",
+      "group": "Security",
       "pages": ["security/authentication"]
     },
     {
-      "group": "Alternate Authentication",
-      "pages": ["security/alternate-authentication/guest"]
+      "group": "Privacy",
+      "pages": ["security/privacy/visibility"]
     }
   ],
   "footerSocials": {
