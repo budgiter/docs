@@ -1,0 +1,44 @@
+---
+title: Adding transactions
+description: "More information on adding transactions to your budget"
+---
+
+## Adding transactions
+
+Adding a transaction, or multiple repeated transactions, is simple but the component is rich with features that can make it look more complicated. 
+
+### Minimum requirements to add a transaction
+
+Only two fields are required to add a transaction: a title and amount. All of the other fields have default values. For example, 
+adding a transaction titled "Dinner" with an amount of "13.07" will automatically select the "Individual transaction" label, repeat once (meaning it will not repeat more than once), 
+and default to the date shown on the component.
+
+### Fully customize transactions 
+
+The component to add a transaction has 6 different values you can customize for a transaction to make your budget yours. Those are:
+
+<AccordionGroup>
+  <Accordion title="Title">
+    The title, or name, of your transaction. This is one of the two required values.
+    Example:
+    > Dinner
+  </Accordion>
+  <Accordion title="Amount">
+    The amount, or total, of your transaction. This is one of the two required values.
+    Example:
+    > 13.07
+  </Accordion>
+  <Accordion title="Date">
+    The date, or time, of your transaction. If this value is empty it will default to shown date.
+    Example:
+    > 11/11/2022
+  </Accordion>
+  <Accordion title="Label">
+    The label of your transaction. There are four labels to choose from: Income, primary recurring, secondary recurring, or individual. If this value is empty it will default to an "Individual transaction" label.
+    Example:
+    > Primary recurring transaction
+  </Accordion>
+  <Accordion title="Repeat">
+    This determines how often the inputted transaction repeats. This is meant to create a prolonged budget and understand long-term cash flow. If this value is empty it will default to "Once" and will not repeat more than once.
+  </Accordion>
+</AccordionGroup>

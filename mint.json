@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Budgiter Support",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -21,62 +21,64 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hello@budgiter.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Budgiter",
+    "url": "https://app.budgiter.com"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Security",
+      "url": "security"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Landing Page",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://budgiter.com/"
     },
     {
-      "name": "Community",
+      "name": "Web App",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://app.budgiter.com/"
     },
     {
       "name": "Blog",
       "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://blog.budgiter.com/"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["your-first-budget", "your-personal-budget", "published-budgets"]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
-    },
-    {
-      "group": "API Documentation",
-      "pages": ["api-reference/authentication"]
-    },
-    {
-      "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/update",
-        "api-reference/endpoint/delete"
+        "essentials/adding-transactions", 
+        "essentials/updating-transactions", 
+        "essentials/creating-budgets",
+        "essentials/editing-budgets", 
+        "essentials/viewing-budgets", 
+        "essentials/navigation"
       ]
+    },
+    {
+      "group": "Authentication",
+      "pages": ["security/authentication"]
+    },
+    {
+      "group": "Alternate Authentication",
+      "pages": ["security/alternate-authentication/guest"]
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "twitter": "https://twitter.com/getbudgiter",
+    "github": "https://github.com/budgiter",
+    "linkedin": "https://www.linkedin.com/company/budgiter"
   }
 }

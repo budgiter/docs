@@ -1,32 +1,16 @@
-# Mintlify Starter Kit
+# Budgiter Support
 
-Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including
+Knowledge base with support docs for Budgiter. The knowledge base contains guides including
 
-- Guide pages
-- Navigation
+- Getting started
+- Understanding the interface
 - Customizations
-- API Reference pages
-- Use of popular components
+- Explanations of components
 
 ### 👩‍💻 Development
 
-Install the [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the documentation changes locally. To install, use the following command
+Budgiter is still in early development. The purpose of these support docs are to ease learning and understanding process while we work on designing Budgiter to be easier.
 
-```
-npm i -g mintlify
-```
+#### Further support
 
-Run the following command at the root of your documentation (where mint.json is)
-
-```
-mintlify dev
-```
-
-### 😎 Publishing Changes
-
-Install our Github App to autopropagate changes from youre repo to your deployment. Changes will be deployed to production automatically after pushing to the default branch. Find the link to install on your dashboard. 
-
-#### Troubleshooting
-
-- Mintlify dev isn't running - Run `mintlify install` it'll re-install dependencies.
-- Page loads as a 404 - Make sure you are running in a folder with `mint.json`
+Contacting Budgiter for further support is still in development. 
