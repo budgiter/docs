@@ -59,7 +59,7 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["welcome", "your-first-budget", "your-personal-budget", "published-budgets"]
+      "pages": ["welcome", "your-first-budget", "your-personal-budget", "exploring-templates", "tutorials"]
     },
     {
       "group": "Essentials",

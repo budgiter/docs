@@ -20,21 +20,30 @@ The component to add a transaction has 6 different values you can customize for 
 <AccordionGroup>
   <Accordion title="Title">
     The title, or name, of your transaction. This is one of the two required values.
+
     Example:
     > Dinner
   </Accordion>
   <Accordion title="Amount">
     The amount, or total, of your transaction. This is one of the two required values.
+
     Example:
     > 13.07
+
+    The checkbox found on the right is to add a bit of variety to dynamic incomes or expenses. For example, if you know your rent changes slightly due to small changes in utilities. Checking this checkbox will add a random amount between 0-2% of the original amount to the submitted transaction. 
+    
+    Example:
+    > 13.07 + (13.07 * .13)
   </Accordion>
   <Accordion title="Date">
     The date, or time, of your transaction. If this value is empty it will default to shown date.
+
     Example:
     > 11/11/2022
   </Accordion>
   <Accordion title="Label">
     The label of your transaction. There are four labels to choose from: Income, primary recurring, secondary recurring, or individual. If this value is empty it will default to an "Individual transaction" label.
+
     Example:
     > Primary recurring transaction
   </Accordion>
@@ -43,7 +52,7 @@ The component to add a transaction has 6 different values you can customize for 
   </Accordion>
 </AccordionGroup>
 
-## Understanding labels
+### Understanding labels
 
 Transactions can be categorized into four labels. Income, primary recurring, secondary recurring, and individual transctions. Ultimately, you are going to determine where each purchase or spend goes. 
 
@@ -73,3 +82,19 @@ Here are some ways to understand how to use these labels:
     Recurring transactions are transactions that occur on schedule; individual transactions are transactions that occur once or one at a time.  
   </Accordion>
 </AccordionGroup>
+
+### Understanding repeating transactions
+
+A budget is best when it is prolonged and creates a longterm view of your cash flow. The option to repeat transactions was added to make it easier to create a longterm budget. Repeating budgets are best for income or expenses that do not change. However, can still be useful for income/expenses that are similar. That is why the Amount section has a checkbox to add a random amount to the budget. To add a bit of variety to a dynamic income or expense. 
+
+All repeating options will currently repeat for a full year.
+
+<Tip>Add repeating transactions in January to budget a whole calendar year.</Tip>
+
+<Warning>There is currently no easy way to update multiple transactions. If a bundled transaction, meaning multiple transactions at once using the repeat transactions option, is added incorrectly you will need to delete the bundled transactions all together and add it again.</Warning>
+
+<Info>Budgiter is still in early development.</Info>
+
+## Tutorial: How to add a transaction
+
+ <iframe src="https://www.iorad.com/player/2257719/Budgiter---How-to-add-a-transaction?src=iframe&oembed=1" width="100%" height="500px" referrerpolicy="strict-origin-when-cross-origin" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" allow="camera; microphone; clipboard-write"></iframe> 
