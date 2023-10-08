@@ -13,4 +13,4 @@ Budgiter is still in early development. The purpose of these support docs are to
 
 #### Further support
 
-Contacting Budgiter for further support is still in development. 
+Email Budgiter for further assistance. 
