@@ -68,8 +68,16 @@
         "essentials/updating-transactions", 
         "essentials/creating-budgets",
         "essentials/editing-budgets", 
-        "essentials/viewing-budgets", 
-        "essentials/navigation"
+        "essentials/viewing-budgets"
+      ]
+    },
+    {
+      "group": "Navigation",
+      "pages": [
+        "navigation/the-menu", 
+        "navigation/home", 
+        "navigation/transactions",
+        "navigation/explore"
       ]
     },
     {
